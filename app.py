@@ -118,18 +118,8 @@ def salary():
 
      return jsonify("average:", avgsalary, "lowest:", minsalary, "highest:", maxsalary) 
 
-   # if request.method == "GET":
-    # cursor = conn.execute("SELECT max(salary) FROM employee")
-     #avgsalary = cursor.fetchall()
-
-    #print("average:")
-    #return jsonify("average:", avgsalary)
+  
                
-
-
-
-
-
 
 
 
@@ -149,7 +139,6 @@ def age():
      avgsalary = cursor3.fetchall()
     
      return jsonify("average:", avgsalary, "oldest:", minsalary, "youngest:", maxsalary) 
-
 
 
 
