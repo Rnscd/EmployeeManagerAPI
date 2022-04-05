@@ -7,6 +7,6 @@ Para a execução da API, acesse a pasta EmployeeManagerAPI no CMD e digite pyth
 
 O login para autenticação é "admin" e a senha é "1111"
 
-Os Endpoints são http://127.0.0.1:5000/employees, http://127.0.0.1:5000/reports/employees/salary e http://127.0.0.1:5000/reports/employees/age
+Os Endpoints são /employees, employees/{id}, /reports/employees/salary e /reports/employees/age
 
 É recomendável o uso de cURL ou Postman para a interação com esta API.
