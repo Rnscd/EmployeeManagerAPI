@@ -5,7 +5,7 @@
 
 Para a execução da API, acesse a pasta EmployeeManagerAPI no CMD e digite python app.py
 
-O login para autenticação é "admin" e a senha é "1111"
+O login para autenticação é "admin" e a senha é "111"
 
 Os Endpoints são /employees, employees/{id}, /reports/employees/salary e /reports/employees/age
 
